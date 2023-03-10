@@ -23,13 +23,13 @@ function addMessage(message, messageType) {
 
 function getBotResponse(userMessage) {
   let botMessage;
-  if (userMessage.includes('Hello')) {
+  if (userMessage.includes('hello')) {
     botMessage = 'How can I help you';
   } 
   else if (userMessage.includes('return a product')) {
     botMessage= 'Enter product id ';
   }
-  else if(userMessage.includes('123456789')){
+  else if(userMessage.includes('12345')){
     botMessage = "Item Mismatched or product defect";
   }
   else if(userMessage.includes("Item Mismatched")){
