@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>QR Code FeedBack</title>
+	<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <link rel="stylesheet" href="/qr.css">
+</head>
+<body>
+	<div id="qrcode-container"></div>
+	<script>
+		var qrcode = new QRCode("qrcode-container");
+		qrcode.makeCode("");
+	</script>
+    <div></div>
+</body>
+</html>
